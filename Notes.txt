@@ -1,0 +1,26 @@
+Only gem based themes can be installed with bundle update.
+
+The _layouts folder contains most of the frontmatter changes. For example, changing the header tabs seen involved going to the body in the chosen layour and changing href to include the new tab.
+
+
+Use the 'Style' shortcut folder to adjust default css settings like max page width, etc.
+The _site folder gets overwritten when jykyll is refreshed, including the css style folder contents.Therefore, moving inside folders to the root directory, while also setting the href's to that new directory lets the everything, including style sheets, be customized and copied it to _site.
+
+
+
+how to add images. remove the ! to make it a download:
+
+{:refdef: style="text-align: center;"}
+ ![derp](/images/metronome_old.jpg)  
+{: refdef}
+
+{:refdef: style="text-align: center;"}
+[Adaptive Retraction](/Assets/Adaptive_Retraction.exe)
+{: refdef}
+
+{{ site.variable }} used to to access a site variable like email address. 
+
+HEIRARCHY:
+
+Each page uses a seperate html based layout in the layout folder which dictates the css that is used on that page. Each layout references a CSS
+style sheet (redundant?) to do this and the multiple references can be used. The CSS is referenced in the layout sheet for things like "Section", "Body", "Header" defaults, etc.
