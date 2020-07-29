@@ -7,5 +7,5 @@ layout: home_page
 
 ---
 {:refdef: style="text-align:center;"}
-<img src="/images/brain_gears.jpg" width="auto" class="extraround" />
+<img src="/Images/brain_gears.jpg" width="auto" class="extraround" />
 {: refdef}
