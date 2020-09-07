@@ -293,7 +293,7 @@ figcaption {
   border-radius: 10px;
   text-align: center;
   align-content: center;
-  width: 60%; } 
+  width: 47%; } 
 
 /* =============================================================================
    Forms
@@ -799,7 +799,14 @@ section {
       section #title .credits.right {
         float: right; }
 
+@media print, screen and (max-width: 1200px) {
+  figcaption {
+     width: 70%; } 
+}
+   
 @media print, screen and (max-width: 860px) {
+   figcaption {
+    width: 70%; }
   .video {
     width: 490px;
     height: 292px; }
