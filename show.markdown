@@ -23,7 +23,7 @@
   <img src="/Images/controller.JPG" class="round" />
 
   <figcaption>Some drum pads I designed, with piezos underneath. I am able to get some nice, realistic drum sounds out of these, especially in regards    to cymbals and hi-hats. Since the proximity of an excitation to a piezo changes the amplitude, three piezos are used on the edges of each pad so that any tapping in the middle gives consistent results. Each pad has different thicknesses and densities to shape the sound in different ways.  </figcaption>
-  <img src="/images/piezo_drums.jpg" class="round" />
+  <img src="/Images/Piezo_Drums.jpg" class="round" />
   
   <figcaption>A foot pedal I designed using a load cell. The pressure signal is sent to a pc using an arduino and serial, and that signal is used to control any parameters I want inside a DAW (digital audio workstation). Its primary purpose is as a hi-hat foot pedal. Originally, a piezo underneath would be triggered by tapping the pedal against the base. This signal would then be used to create a "foot" tap sound. However, it proved unreliable, so I opted to used the position of the pedal to trigger an impulse instead, with the velocity of the pedal determining the amplitude of the impulse.</figcaption>
   <img src="/Images/fp_angled.JPG" class="round" />
