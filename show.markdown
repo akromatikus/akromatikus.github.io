@@ -8,6 +8,11 @@
 {:refdef: style="text-align:center;" }
 
 <figure>
+ 
+  <figcaption>The Ultrasonic Binocular Surface Sensor. This video shows some simple tests. The code is available on my github.</figcaption>
+  <div style="text-align: center;margin-bottom: 30px"><iframe class="video" width="789" height="444"       src="https://youtu.be/jJE9zqmr_Zc" 
+  frameborder="10px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+ 
   <figcaption>A quick display of the controls of a simple 3-D printed paddle boat which I designed using Autocad.</figcaption>
   <div style="text-align: center;margin-bottom: 30px"><iframe class="video" width="789" height="444"       src="https://www.youtube.com/embed/HEWLz2Ls8z0" 
   frameborder="10px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
