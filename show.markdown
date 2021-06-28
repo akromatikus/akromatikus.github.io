@@ -9,7 +9,7 @@
 
 <figure>
  
- <figcaption>An inductor winder. Great for thin, high wind count wire as well as impedance matched inductors. The code is available on my github.</figcaption>
+  <figcaption>An inductor winder. Great for thin, high wind count wire as well as impedance matched inductors. The code is available on my github.</figcaption>
   <div style="text-align: center;margin-bottom: 30px"><iframe class="video" width="789" height="444"       src="https://www.youtube.com/embed/zOSJni8xGy4" 
   frameborder="10px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
  
