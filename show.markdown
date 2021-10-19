@@ -31,11 +31,11 @@
   <figcaption>The controller for the boat. Making the physical controls functional was quite fun. I tried to make everything as compact as possible for this project. Was that necessary? No, but it was a fun challenge nonetheless.</figcaption>
   <img src="/Images/controller.JPG" class="round" />
  
-  <figcaption>A hi-hat demonstration combining piezo pads and a custom foot pedal, along with some software voodoo in max/msp (A work in progress). The piezo pads send audio to a pc, which converts the audio into pulses which are then convolved with various drum samples. The pedal fades between these samples, and also chokes the open hat samples like a real hi-hat would.</figcaption>
+  <figcaption>A hi-hat demonstration combining piezo pads and a custom foot pedal, along with some software voodoo in max/msp (A work in progress).</figcaption>
     <div style="text-align: center;margin-bottom: 30px"><iframe class="video" width="789" height="444" src="https://www.youtube.com/embed/ZcGDD9cZw5U" 
     frameborder="10px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
 
-  <figcaption>The rest of the drum pads, with piezos underneath. I am able to get some nice, realistic drum sounds out of these, especially in regards to cymbals and hi-hats. Since the proximity of an excitation to a piezo changes the amplitude, three piezos are used on the edges of each pad so that any tapping in the middle gives consistent results. Each pad has different thicknesses and densities to shape the sound in different ways.  </figcaption>
+  <figcaption>The rest of the drum pads, with piezos underneath. I am able to get some nice, realistic drum sounds out of these, especially in regards to cymbals and hi-hats. Since the proximity of an excitation to a piezo changes the amplitude, three piezos are used on the edges of each pad so that any tapping in the middle gives consistent results.   </figcaption>
   <img src="/Images/Piezo_Drums.jpg" class="round" />
 
   <figcaption>A foot pedal I designed using a load cell. The pressure signal is sent to a pc using an arduino and serial, and that signal is used to control any parameters I want inside a DAW (digital audio workstation). Its primary purpose is as a hi-hat foot pedal. Originally, a piezo underneath would be triggered by tapping the pedal against the base. This signal would then be used to create a "foot" tap sound. However, it proved unreliable, so I opted to used the position of the pedal to trigger an impulse instead, with the velocity of the pedal determining the amplitude of the impulse. Here is a quick demonstration, used as a wah wah pedal.</figcaption>
